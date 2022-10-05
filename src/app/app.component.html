@@ -1,0 +1,29 @@
+<clr-main-container>
+  <clr-header class="header-6">
+    <div class="header-nav" [clr-nav-level]="1">
+        <a href="javascript://" class="active nav-link nav-text">Dashboard</a>
+        <a href="javascript://" class="nav-link nav-text">Interactive Analytics</a>
+    </div>
+</clr-header>
+  <div class="content-container">
+    <clr-vertical-nav class="nav-trigger--bottom" [clr-nav-level]="2" [clrVerticalNavCollapsible]="true"
+      [(clrVerticalNavCollapsed)]="collapsed">
+
+      <a clrVerticalNavLink>
+        Nav Link 1
+      </a>
+      <a clrVerticalNavLink>
+        Nav Link 2
+      </a>
+      <a clrVerticalNavLink>
+        Nav Link 3
+      </a>
+      <a clrVerticalNavLink>
+        Nav Link 4
+      </a>
+    </clr-vertical-nav>
+    <div class="content-area">
+      <!-- <router-outlet></router-outlet> -->
+    </div>
+  </div>
+</clr-main-container>
